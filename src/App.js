@@ -16,7 +16,7 @@ function App() {
   return (
 
     <Routes>
-      <Route path="" element={<MainLayout />}>
+      <Route path="pizza" element={<MainLayout />}>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
         <Route path="Cart" element={<Cart />} />
